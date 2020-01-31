@@ -57,17 +57,19 @@ const userContainer = {
   textAlign: "right",
   padding: "7px 0px",
   borderBottom: "1px solid darkgray",
-  backgroundColor: "skyblue"
+  backgroundColor: "#4267B2"
 };
 
 const userList = {
   border: "none",
-  borderRadius: "5px"
+  borderRadius: "5px",
+  backgroundColor: "#4267B2",
+  color: "white",
+  marginRight: "15px"
 };
 
 const textContainer = {
   maxWidth: "100%",
-  borderBottom: "1px solid darkgray"
 };
 
 const textStyle = {

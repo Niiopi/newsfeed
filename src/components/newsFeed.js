@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import PostInput from "./postInput";
 import PostList from "./postList";
-import moment from "moment"
+import moment from "moment";
 
 let counter = 14;
 
@@ -101,6 +101,9 @@ export class newsFeed extends Component {
       }
     });
     let postCopy = [...this.state.entry];
+    postCopy.sort((a, b) => {
+      return b.like - a.like;
+    });
     this.setState({ entry: postCopy });
   };
 

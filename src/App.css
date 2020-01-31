@@ -9,11 +9,24 @@ img {
   border-radius: 100px;
 }
 
+p {
+  display: inline-block;
+  margin-left: 5px;
+  margin-top: 0px;
+}
+
+.fa-thumbs-up {
+  padding-right: 5px;
+  font-size: 10px;
+}
+
 button {
   width: 30%;
   border-radius: 3px;
   border: none;
-  background-color: lightblue;
+  background-color: #4267B2;
+  margin-right: 15px;
   padding: 3px 0px;
+  color: white;
   cursor: pointer;
 }
